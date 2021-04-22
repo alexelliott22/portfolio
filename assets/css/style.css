@@ -48,8 +48,15 @@ header nav ul {
     width: 100%;
 }
 
+header nav ul li a{
+    width: 10%;
+    height: 20px;
+    padding: 10px 15px;
+}
+
 header nav ul li a:hover {
     background-color: white;
+    border-radius: 13%;
 }
 /*end of nav bar*/
 
@@ -159,6 +166,7 @@ footer div a:hover {
 }
 
 #projects ul li a img:hover {
-    opacity: .5;
+    background-color: white;
+    border-radius: 10%;
 }
 /* end of projects section*/
