@@ -79,4 +79,79 @@ footer div a:hover {
 
 /*hero start*/
 
+.hero {
+    margin: 100px 0;
+}
 
+.hero h1 {
+    text-align: center;
+    margin: auto;
+    font: large;
+}
+
+.hero h1 span {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/*end of hero section*/
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me h2 {
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#about-me div {
+    display: flex;
+    align-items: center;
+}
+
+#about-me img {
+    border-radius: 50%;
+}
+
+#about-me p {
+    padding: 0 80px;
+
+}
+
+/*end of about me*/
+
+/* start of projects*/
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h2 {
+    margin: 30px auto;
+    padding: 10px 0;
+}
+
+#projects ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#projects ul li {
+    margin: 15px;
+    text-align: center;
+}
+
+
+#projects ul li a img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#projects ul li a img:hover {
+    opacity: .5;
+}
