@@ -15,6 +15,13 @@ body {
     font-family: sans-serif;
 }
 
+h2 {
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 0;
+    font-size: xx-large;
+}
+
 /*Header NAV bar*/
 header {
     width: 100%;
@@ -42,27 +49,24 @@ header nav ul {
 }
 
 header nav ul li a:hover {
-    background-color: rgba(42, 42, 42, .1);
-    opacity: .4;  
+    background-color: white;
 }
 /*end of nav bar*/
 
 /*contact me start*/
 footer {
-    margin: 50px auto 30px auto;
-    padding: 20px;
+    margin: 50px auto 0 auto;
+    padding-top: 20px;
+    height: 250px;
+    vertical-align: middle;
 }
 
-footer h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 footer div {
     margin: auto;
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 40%;
 }
 
 footer div a {
@@ -129,21 +133,23 @@ footer div a:hover {
     flex-direction: column;
 }
 
-#projects h2 {
-    margin: 30px auto;
-    padding: 10px 0;
-}
-
 #projects ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
+    width: 50%;
+    align-items: center;
+    margin: auto;
 }
 
 #projects ul li {
-    margin: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    height: 250px;
 }
 
 
@@ -155,3 +161,4 @@ footer div a:hover {
 #projects ul li a img:hover {
     opacity: .5;
 }
+/* end of projects section*/
