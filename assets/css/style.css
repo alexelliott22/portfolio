@@ -1,6 +1,8 @@
 :root {
     --background-color: #2a2a2a;
-    --text-color: #8a8a8a;
+    --text-color: white;
+    --hover-color: black;
+    --header-color: black;
 }
 
 * {
@@ -18,7 +20,7 @@ body {
 h2 {
     text-align: center;
     margin: 30px auto;
-    padding: 10px 0;
+    padding: 70px 0;
     font-size: xx-large;
 }
 
@@ -26,20 +28,23 @@ h2 {
 header {
     width: 100%;
     text-align: center;
-    margin: 30px 0;
-    padding-top: 40px;
+    padding-top: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--header-color);
 }
 header a {
     text-decoration: none;
     color: var(--text-color);
 }
-header nav {
+header .website-navigation {
     margin: auto;
     width: 50%;
     padding: 15px;
 }
 
-header nav ul {
+.website-navigation {
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -48,15 +53,16 @@ header nav ul {
     width: 100%;
 }
 
-header nav ul li a{
+.website-navigation ul li a{
     width: 10%;
     height: 20px;
     padding: 10px 15px;
 }
 
-header nav ul li a:hover {
+.website-navigation ul li a:hover {
     background-color: white;
-    border-radius: 13%;
+    border-radius: 10%;
+    color: var(--hover-color);
 }
 /*end of nav bar*/
 
@@ -65,33 +71,43 @@ footer {
     margin: 50px auto 0 auto;
     padding-top: 20px;
     height: 250px;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
 }
 
+footer div h2 {
+    margin: 0%;
+    padding: 70px 0 0 0;
+}
 
-footer div {
+.contact {
     margin: auto;
     display: flex;
     justify-content: space-around;
     width: 40%;
 }
 
-footer div a {
+.contact a {
     text-decoration: none;
     color: var(--text-color);
+    padding: 10px;
 }
 
-footer div a:hover {
+.contact a:hover {
     background-color: white;
     border-radius: 13%;
+    color: var(--hover-color);
 }
 
 /*end of footer */
 
 /*hero start*/
-
 .hero {
     margin: 100px 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero h1 {
@@ -102,7 +118,7 @@ footer div a:hover {
 
 .hero h1 span {
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 6vh;
 }
 
 /*end of hero section*/
@@ -110,11 +126,6 @@ footer div a:hover {
 #about-me {
     display: flex;
     flex-direction: column;
-}
-
-#about-me h2 {
-    margin: auto;
-    padding-bottom: 60px;
 }
 
 #about-me div {
@@ -128,6 +139,7 @@ footer div a:hover {
 
 #about-me p {
     padding: 0 80px;
+    font-size: x-large;
 
 }
 
