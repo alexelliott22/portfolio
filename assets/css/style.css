@@ -140,7 +140,7 @@ footer div h2 {
 #about-me p {
     padding: 0 80px;
     font-size: x-large;
-
+    overflow-wrap: break-word;
 }
 
 /*end of about me*/
