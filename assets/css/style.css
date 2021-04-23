@@ -82,8 +82,8 @@ footer div a {
 }
 
 footer div a:hover {
-    background-color: rgba(42, 42, 42, .1);
-    opacity: .4;  
+    background-color: white;
+    border-radius: 13%;
 }
 
 /*end of footer */
@@ -166,7 +166,6 @@ footer div a:hover {
 }
 
 #projects ul li a img:hover {
-    background-color: white;
-    border-radius: 10%;
+    opacity: .4;
 }
 /* end of projects section*/
