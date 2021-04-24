@@ -7,7 +7,7 @@ https://alexelliott22.github.io/portfolio/
 https://github.com/alexelliott22/portfolio
 
 ## Screenshot of webpage
-![screenshot of website](assets/images/screenshot.png)
+![screenshot of website](assets/imgs/screenshot.png)
 
 
 
