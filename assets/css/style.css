@@ -168,7 +168,7 @@ footer div h2 {
     flex-direction: column;
     justify-content: space-around;
     align-content: space-between;
-    height: 250px;
+    height: 280px;
 }
 
 #projects ul li a img {
@@ -187,6 +187,7 @@ footer div h2 {
 #projects ul .large img {
     width: 250px;
 }
+
 
 /* end of projects section*/
 
