@@ -188,6 +188,16 @@ footer div h2 {
     width: 250px;
 }
 
+.github-link a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.github-link a:hover {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
 
 /* end of projects section*/
 
