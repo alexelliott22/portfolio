@@ -127,6 +127,7 @@ footer div h2 {
 #about-me {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 #about-me div {
