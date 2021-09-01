@@ -169,6 +169,7 @@ footer div h2 {
     justify-content: space-around;
     align-content: space-between;
     height: 280px;
+    padding-bottom: 3vh;
 }
 
 #projects ul li a img {
@@ -186,10 +187,6 @@ footer div h2 {
 
 #projects ul .large img {
     width: 250px;
-}
-
-.project {
-    padding-bottom: 3vh;
 }
 
 .github-link a {
