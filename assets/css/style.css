@@ -188,6 +188,10 @@ footer div h2 {
     width: 250px;
 }
 
+.projects {
+    padding-bottom: 3vh;
+}
+
 .github-link a {
     text-decoration: none;
     color: var(--text-color);
