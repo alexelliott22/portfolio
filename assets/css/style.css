@@ -152,6 +152,7 @@ footer div h2 {
 #projects {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 #projects ul {
